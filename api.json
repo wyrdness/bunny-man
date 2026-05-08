@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/bunny-man",
     "maintainers": [
       {
@@ -16,112 +16,275 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bunny-man",
-    "name": "The Bunny Man Urban Legend",
-    "aliases": [],
-    "category": "CONFUSION_(HUMAN/ANIMAL/COSTUME)",
-    "subcategory": "Analysis",
+    "name": "The Bunny Man",
+    "aliases": [
+      { "name": "Bunny Man Bridge", "region": "Clifton, Virginia, USA", "meaning": "Colchester Overpass nickname" }
+    ],
+    "category": "URBAN_LEGEND",
+    "subcategory": "Costumed assailant urban legend",
     "tags": [
-      "(fertility",
-      "trickster",
-      "fear)"
+      "urban-legend",
+      "virginia",
+      "fairfax-county",
+      "costumed-figure",
+      "axe",
+      "bridge",
+      "legend-tripping"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Bunny Man is a distinctive American urban legend originating from Fairfax County, Virginia, centered on reports of a figure in a rabbit costume wielding an axe or hatchet who terrorizes people, particularly near an overpass that has become known as \\\"Bunny Man Bridge.",
-      "full": "The Bunny Man is a distinctive American urban legend originating from Fairfax County, Virginia, centered on reports of a figure in a rabbit costume wielding an axe or hatchet who terrorizes people, particularly near an overpass that has become known as \\\"Bunny Man Bridge.\\\" The legend is notable among folklorists for having documented historical incidents that served as kernels of truth around which elaborate mythological narratives developed. In October 1970, two verified incidents occurred in Fairfax County involving a man in a white rabbit costume who threw objects at cars and threatened people with an axe. These actual police-reported events spawned a rich legendary tradition that has evolved over five decades into one of Virginia's most persistent local legends, complete with bridge hauntings, Halloween rituals, and elaborate backstories involving escaped mental patients and historical tragedies. From a folklore studies perspective, the Bunny Man legend exemplifies how contemporary legends develop from actual events, how geographic sites become invested with legendary significance, and how community storytelling traditions adapt and expand core narratives across generations. The legend also demonstrates the power of incongruous imagery—the juxtaposition of a childlike bunny costume with violent, threatening behavior—in creating memorable and transmissible folklore."
+      "summary": "The Bunny Man is an American urban legend from Fairfax County, Virginia, rooted in two confirmed October 1970 incidents in which a man wearing a white rabbit costume threatened people with a hatchet and axe; over decades the legend has grown to centre on the Colchester Road railroad overpass ('Bunny Man Bridge') near Clifton.",
+      "full": "The Bunny Man is a Northern Virginia urban legend documented in detail by Brian A. Conley, historian-archivist of the Fairfax County Public Library. It originates in two genuine and police-reported incidents in October 1970. On the evening of 19 October 1970, U.S. Air Force Academy cadet Robert Bennett and his fiancée were sitting in a car parked on Guinea Road in the Burke area of Fairfax County when a figure approached, complained that they were trespassing, and threw a hatchet through the front passenger window. Bennett described the figure as wearing 'a white suit with long bunny ears'; his fiancée described a white outfit but was unsure about the ears. Ten days later, on 30 October 1970, construction security guard Paul Phillips encountered a person in a 'gray, black, and white bunny costume' on the porch of an unfinished home in Kings Park West, also off Guinea Road. The figure attacked a porch post with a long-handled axe and shouted at Phillips to leave. Police investigated but never identified a suspect. From these two incidents, an elaborate folkloric tradition grew up around the Colchester Road railroad overpass near Clifton, Virginia ('Bunny Man Bridge'), incorporating false backstories about an 1904 escaped asylum patient (the Lorton Reformatory was not in operation at that date), Halloween rituals, and chains of Halloween-night murders. A 1973 University of Maryland student paper documented 54 distinct legend variants. Conley, after extensive archival research, has emphasised that the bridge has no documented connection to the 1970 events themselves."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Press accounts of the October 1970 Fairfax County incidents referred to a 'man in a bunny suit'; popular usage condensed this to 'the Bunny Man'.",
+      "meaning": "Self-explanatory descriptor; the costume — rabbit-themed white outfit — is the legend's defining visual element.",
+      "first_use": "October 1970 in Fairfax County, Virginia, news coverage."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CONFUSION_(HUMAN/ANIMAL/COSTUME)",
-      "type": "Analysis",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "URBAN_LEGEND",
+      "type": "Costumed assailant legend",
+      "subtype": "Local-haunting / legend-tripping urban legend",
+      "variant": "Fairfax County, Virginia"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "phantom-clown", "name": "Phantom clown", "relationship": "similar", "description": "Family of urban legends and panics involving costumed figures" },
+      { "id": "creepy-clown-sightings", "name": "2016 creepy-clown sightings", "relationship": "similar", "description": "Another wave of costume-figure-as-threat reports" },
+      { "id": "slender-man", "name": "Slender Man", "relationship": "related", "description": "Modern internet-era folkloric figure with similar legend-tripping practices" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Rabbit costume", "description": "Witnesses to the 1970 incidents describe a white (or grey-black-white) rabbit costume; later legend retellings often add long ears and red eyes", "frequency": "always" },
+        { "feature": "Axe or hatchet", "description": "Carries a long-handled axe in the second incident; threw a hatchet in the first", "frequency": "always" }
+      ],
+      "morphology": "The Bunny Man is a costumed human assailant in the documented 1970 record; in legend, an unclear blend of human, ghost, and mythologised figure haunting Bunny Man Bridge."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["Colchester Road railroad overpass ('Bunny Man Bridge')", "Suburban Fairfax County streets and woods"],
+      "patterns": [
+        "Reported in autumn, especially around Halloween",
+        "Targets parked or stationary individuals",
+        "Threatens with edged weapons",
+        "Closely associated in legend with Halloween-night appearances at the bridge"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Localised to Fairfax County, Virginia, with the legend's geographic centre at the Colchester Road overpass near Clifton.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Virginia", "Fairfax County", "Northern Virginia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Bunny Man Bridge (Colchester Overpass)",
+        "location": {
+          "description": "Railroad overpass on Colchester Road near Clifton, Virginia",
+          "country": "United States",
+          "region": "Virginia",
+          "coordinates": { "latitude": 38.7800, "longitude": -77.3870 }
+        },
+        "peak_period": "1980s–present",
+        "notes": "Stone-arch railroad bridge; principal site of contemporary legend-tripping. The bridge itself has no documented role in the 1970 incidents."
+      },
+      {
+        "name": "Guinea Road, Burke",
+        "location": {
+          "description": "Residential street in the Burke area",
+          "country": "United States",
+          "region": "Virginia",
+          "coordinates": { "latitude": 38.7950, "longitude": -77.2700 }
+        },
+        "peak_period": "October 1970",
+        "notes": "Site of both confirmed 1970 incidents."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1970-10-19",
+        "circa": false,
+        "source": "Fairfax County Police report; Washington Post coverage (October 1970)"
+      },
+      "peak_activity_periods": [
+        { "period": "October 1970", "description": "The two original confirmed incidents" },
+        { "period": "1990s–present", "description": "Legend grows online and at the bridge, especially around Halloween" }
+      ],
+      "seasonal_patterns": "Strongly Halloween-coded; almost all legend-tripping activity occurs in late October."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Early-1970s Fairfax County suburban folklore, building on two genuine, police-reported incidents.",
+      "earliest_accounts": "October 1970 Fairfax County Police reports and contemporaneous Washington Post coverage.",
+      "folklore_connections": "Connected to broader American 'lover's lane' and 'haunted bridge' urban-legend traditions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1970-10-19", "event": "First confirmed incident: Robert Bennett and his fiancée have a hatchet thrown through their car window on Guinea Road, Burke, by a person in a white rabbit costume", "significance": "Originating incident of the legend", "source": "Fairfax County Police report; Conley archival research" },
+      { "date": "1970-10-30", "event": "Second confirmed incident: security guard Paul Phillips sees a person in a bunny costume strike a porch post with a long-handled axe in Kings Park West", "significance": "Second documented incident, ten days after the first", "source": "Fairfax County Police report; Conley archival research" },
+      { "date": "1973", "event": "University of Maryland folklore student paper identifies 54 distinct variants of the Bunny Man story", "significance": "Demonstrates rapid mutation of the legend within three years", "source": "University of Maryland student paper, cited in Conley (2002)" },
+      { "date": "1999", "event": "Castle of Spirits website publishes a fabricated origin story claiming a 1904 mental-asylum escape", "significance": "Source of the most-circulated false backstory", "source": "Conley, B. A. (2002), Fairfax County Public Library" },
+      { "date": "2002", "event": "Brian A. Conley publishes 'The Bunny Man Unmasked' through the Fairfax County Public Library", "significance": "Definitive archival debunking of the asylum-escape myth and consolidation of documented facts", "source": "Conley, B. A. (2002)" }
+    ],
+    "modern_era": "The Bunny Man is one of the most active legend-tripping traditions in the eastern United States. Each Halloween, large numbers of teenagers and college students gather at the Colchester Overpass; Fairfax County police periodically close roads in the area to manage the crowds. The factual core of the legend remains the two confirmed October 1970 incidents."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
+      "total_documented": 2,
+      "verified": 2,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1970-10-19", "latest": "1970-10-30" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "bunny-man-1970-bennett",
+        "name": "Bennett hatchet incident",
+        "date": { "value": "1970-10-19", "precision": "exact" },
+        "location": {
+          "description": "Guinea Road, Burke, Fairfax County, Virginia",
+          "country": "United States",
+          "region": "Virginia",
+          "locality": "Burke",
+          "coordinates": { "latitude": 38.7950, "longitude": -77.2700, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["U.S. Air Force Academy cadet (Robert Bennett)", "Bennett's fiancée"], "credibility_factors": ["Police report filed", "Contemporary Washington Post coverage"] },
+        "description": "Bennett and his fiancée were parked on Guinea Road when a figure approached the car, complained that they were on private property, and threw a hatchet through the front passenger window. Bennett described the assailant as wearing a white suit with bunny ears; his fiancée described white attire but was uncertain about ears. The hatchet was recovered and turned over to police; no suspect was identified.",
+        "conditions": { "time_of_day": "Evening", "duration": "Brief encounter" },
+        "evidence": ["Recovered hatchet (Fairfax County Police)", "Police report"],
+        "credibility": { "rating": "high", "factors": ["Police report", "Multiple contemporaneous newspaper accounts", "Two witnesses"], "notes": "One of the two documented foundational incidents." },
+        "sources": ["Conley, B. A. (2002)", "Washington Post (October 1970)"],
+        "featured": true
+      },
+      {
+        "id": "bunny-man-1970-phillips",
+        "name": "Phillips porch axe incident",
+        "date": { "value": "1970-10-30", "precision": "exact" },
+        "location": {
+          "description": "Unfinished home, Kings Park West, near Guinea Road, Fairfax County, Virginia",
+          "country": "United States",
+          "region": "Virginia",
+          "locality": "Kings Park West",
+          "coordinates": { "latitude": 38.8000, "longitude": -77.2700, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Construction security guard (Paul Phillips)"], "credibility_factors": ["Police report filed"] },
+        "description": "Construction security guard Paul Phillips approached an unfinished house in Kings Park West and saw a person in a 'gray, black, and white bunny costume' on the porch. The figure used a long-handled axe to strike a porch post repeatedly while shouting at Phillips to leave. The figure fled; police searched the area but found no suspect.",
+        "conditions": { "time_of_day": "Evening", "duration": "Several minutes" },
+        "evidence": ["Police report", "Damage to porch post"],
+        "credibility": { "rating": "high", "factors": ["Police report", "Single experienced witness (security guard)"], "notes": "Second of the two confirmed 1970 incidents; ten days after the Bennett incident." },
+        "sources": ["Conley, B. A. (2002)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "bunny-man-evidence-conley-2002",
+        "type": "archival research paper",
+        "name": "The Bunny Man Unmasked: The Real Life Origins of an Urban Legend",
+        "date": "2002",
+        "description": "Brian A. Conley's archival investigation for the Fairfax County Public Library, including transcribed police reports and contemporary press clippings.",
+        "status": "verified",
+        "analysis": "Authoritative documentation of the 1970 incidents and refutation of fabricated backstories.",
+        "source": "Conley, B. A. (2002), Fairfax County Public Library"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Haunted bridge / vengeful spirit",
+        "description": "Pop-folkloric framing: the Bunny Man is a ghost or supernatural entity haunting the Colchester Overpass, especially active on Halloween night.",
+        "proponents": ["Castle of Spirits (1999) and successor websites", "Local legend-trippers"],
+        "evidence_cited": ["Reported feelings of dread at the bridge", "Halloween-night anecdotes"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Two real incidents, mythologised",
+        "description": "The factual core consists of two confirmed October 1970 incidents involving a costumed assailant; everything beyond — the asylum escapee, the hangings from the bridge, the Halloween-night murders — is post-hoc folklore that began circulating in print and online from the 1990s onward.",
+        "proponents": ["Brian A. Conley", "Fairfax County Public Library"],
+        "evidence_cited": ["1970 Fairfax County Police reports", "Contemporary Washington Post coverage", "Refuted Lorton/asylum claim (Lorton Reformatory dates)"]
+      },
+      {
+        "name": "Costumed prankster or disturbed individual",
+        "description": "The most parsimonious reading of the original 1970 incidents is a single individual, possibly a college-age prankster or a person experiencing mental illness, never identified by police.",
+        "proponents": ["Fairfax County Police investigators"],
+        "evidence_cited": ["Police reports", "No further confirmed incidents after October 1970"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Halloween-night legend-tripping at Bunny Man Bridge",
+        "Local 'lover's lane' legend in Northern Virginia"
+      ],
+      "stories": [
+        "1970 hatchet attack on a parked car (Bennett incident)",
+        "1970 axe attack on a porch (Phillips incident)",
+        "Fabricated 1904 asylum-escape origin (Castle of Spirits, 1999)"
+      ],
+      "beliefs": "Around Halloween, the Bunny Man is said to appear at the Colchester Overpass; some retellings claim that those who pass under the bridge at midnight on Halloween will be killed."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Bunny Man Unmasked — Brian A. Conley (2002)",
+        "Coverage in collected American urban-legend volumes (e.g., Jan Harold Brunvand's work)"
+      ],
+      "film_tv": [
+        "Bunnyman (2011) — independent horror film inspired by the legend",
+        "Featured in episodes of paranormal-tourism cable series"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Annual unofficial Halloween gatherings at the Colchester Overpass",
+        "Fairfax County Police road-management around the bridge each Halloween"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Brian A. Conley", "affiliation": "Fairfax County Public Library (Historian-Archivist)", "contribution": "Archival reconstruction of the 1970 incidents and debunking of fabricated origin stories", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "Fairfax County Public Library — Virginia Room", "url": "https://www.fairfaxcounty.gov/library/branches/virginia-room", "focus": "Local-history archives including Bunny Man documentation" }
+    ],
+    "ongoing_studies": "Folklore-studies analysis of legend-tripping behaviour at the Colchester Overpass; periodic local journalism around Halloween."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-bunny-man", "type": "website", "title": "Bunny Man", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bunny_Man", "accessed": "2026-05-07" },
+    { "id": "conley-2002", "type": "archive", "title": "The Bunny Man Unmasked: The Real Life Origins of an Urban Legend", "authors": ["Brian A. Conley"], "publication": "Fairfax County Public Library", "date": "2002" },
+    { "id": "fcpl-bunny-man", "type": "website", "title": "Bunny Man — Fairfax County Public Library historical research", "publication": "Fairfax County Public Library", "url": "https://www.fairfaxcounty.gov/library/branches/virginia-room", "accessed": "2026-05-07" }
+  ]
 }
